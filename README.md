@@ -1,4 +1,4 @@
-# ada-2021-project-young-boys
+# US favorability
 
 ## Abstract
 Nations around the world with different cultures and traditions have economic and political relationships with each 
