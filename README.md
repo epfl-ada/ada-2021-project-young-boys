@@ -11,13 +11,13 @@ for those thirty-seven countries. Consequently, we will estimate the favorabilit
 United States.
 
 ## Research Questions
-###A. Do politicians and nonpoliticians say the same thing?
+### A. Do politicians and nonpoliticians say the same thing?
 Politicians are biased in many issue areas, as interest groups or politicians themselves benefit from policies that harm
 the public. In other words, politicians' opinions are different from nonpoliticians' opinions. We will perform the 
 sentiment analysis on these two separate datasets. Then we study and compare the results to understand how politicians' 
 options differ from nonpoliticians.
 
-###B. Do the media reflect the nation?
+### B. Do the media reflect the nation?
 As a society, we employ many different media and spend considerable time with media. We rely on it as a news source and 
 entertainment, and we often assume that what we consume is pretty reliable. However, this assumption could not be 
 accurate, as the media might be biased and has the tendency to lean towards or against someone or something. In most 
@@ -26,7 +26,7 @@ countries, media bias can ultimately reflect the ideals of the governing body; f
 bias essentially becomes propaganda. Thus, we analyze the quotes given by cable news television channels or newspapers 
 such as CNN, Fox News, The New York Times, etc.
 
-###C. How does the world see the United States with a new president?
+### C. How does the world see the United States with a new president?
 Europeans' attitudes toward the United States have undergone a massive change during Donald Trump's presidency. They 
 thought that the United States' political was broken, furthermore European countries could not trust the United States 
 to defend them. They tend to invest in their own economy and defense and look to Germany rather than the United States. 
@@ -40,7 +40,7 @@ associated with the new president than about what the president has done politic
 2015-16 and 2019-20 where there is a transition from Barack Obama to Donald Trump to analyze the changes in people's 
 opinion towards the United States.
 
-###D. How does the United States see the rest of the world?
+### D. How does the United States see the rest of the world?
 According to Pew Research Center in 2013, Americans don't like Middle Eastern countries, and they don't like the United 
 States. But there was one notable difference. The British don't have nearly the same affection for the United States as 
 Americans have for Great Britain. In our proposed project, we will also compare the sentiments of countries about each 
