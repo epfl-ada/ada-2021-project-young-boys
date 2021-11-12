@@ -91,5 +91,6 @@ nationality. Then, we filter the quotes that contain American names from 2015 to
 | A | Saleh | | | |
 | B | | Alireza | | |
 | C | | | Jonathan | |
+| D | | | | Nicolas  |
 | D | | | Nicolas | |
 | Writing report | | | | All  |
