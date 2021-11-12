@@ -59,8 +59,8 @@ keyword selection, which is essential for our project.
 
 ## Methods
 ### Countries quotes sentiment analysis
-We considered the quoting bank from 2015 to 2020, which contains X quotes. We manually defined keywords "US," "U.S," 
-"USA," and "United States," then extracted X quotes that contained these keywords. We identified the speaker nationality
+We considered the quoting bank from 2015 to 2020, which contains 18.702Go of data. We manually defined keywords "US," "U.S," 
+"USA," and "United States," then extracted 253.1Mo of data that contained these keywords. We identified the speaker nationality
 of these quotes and performed a sentiment analysis. Sentiment analysis is a text analysis that determines polarity 
 within the text. Finally, we study the positiveness or negativeness of the quotes of all countries towards the United 
 States. 
