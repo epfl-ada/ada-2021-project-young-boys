@@ -93,20 +93,3 @@ nationality. Then, we filter the quotes that contain American names from 2015 to
 | C | | | Jonathan | |
 | D | | | Nicolas | |
 | Writing report | | | | All  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
