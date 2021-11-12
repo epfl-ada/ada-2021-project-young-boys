@@ -75,8 +75,8 @@ observe in the Table below, the Flair library results in better sentiment analys
 
 | | NLTK | TextBlob | Flair | 
 |-------|:-------:|-------|-------| 
-|Accuracy| X | X | X | 
-|Time | X | X | X | 
+|Accuracy| 0.54 % | 0.42 % | 0.66 % | 
+|Time | 0.135[s] | 0.021[s] | 4.064[s] (without initialization)| 
 
 ### Keyword enrichment
 To make our results of sentiment analysis more attractive and trustworthy, we will enrich the keywords. In our project, 
