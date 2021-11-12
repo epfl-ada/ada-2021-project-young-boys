@@ -75,7 +75,7 @@ observe in the Table below, the Flair library results in better sentiment analys
 
 | | NLTK | TextBlob | Flair | 
 |-------|:-------:|-------|-------| 
-|Accuracy| 0.54 % | 0.42 % | 0.66 % | 
+|Accuracy| 54 % | 42 % | 66 % | 
 |Time | 0.135[s] | 0.021[s] | 4.064[s] (without initialization)| 
 
 ### Keyword enrichment
