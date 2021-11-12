@@ -56,6 +56,8 @@ within the text. Finally, we study the positiveness or negativeness of the quote
 States. 
 You can find our preliminary results in the attachment.
 
+![alt text](results_world_map.png)
+
 ### Investigation in sentiment analysis algorithms
 We evaluated the accuracy of the sentiment analysis algorithm by conducting a user survey where fifty 
 quotes were selected randomly, and different Python libraries named NLTK, Flair, and TextBlob were applied. As we 
