@@ -47,6 +47,16 @@ Americans have for Great Britain. In our proposed project, we will also compare 
 other, e.g., see whether country 'A' likes country 'B' more than country 'B' likes country 'A'. We evaluate how the 
 United States feels about the world and how the world thinks about the United States.
 
+## Proposed additional datasets
+In this project, we employed two additional datasets named Pew Research Center and Wikidata. From Pew Research Center, 
+we used the dataset of 2016-2020, which conducts public opinion polling over the phone to evaluate public attitudes 
+toward the United States. However, their analysis does not include the vast majority of the countries.
+
+We also considered Wikidata, which is a free database to provide support for Wikipedia. Wikidata enables us to access 
+additional metadata such as nationality about the speakers in the Quotebank dataset. Thanks to Wikidata, we can enhance 
+keyword selection, which is essential for our project. 
+
+
 ## Methods
 ### Countries quotes sentiment analysis
 We considered the quoting bank from 2015 to 2020, which contains X quotes. We manually defined keywords "US," "U.S," 
