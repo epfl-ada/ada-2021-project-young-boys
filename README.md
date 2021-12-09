@@ -94,3 +94,51 @@ nationality. Then, we filter the quotes that contain American names from 2015 to
 | D | | | | Nicolas  |
 | D | | | Nicolas | |
 | Writing report | | | | All  |
+
+
+
+# Potential skeleton to the data story
+
+## Introduction and PEW dataset
+In the PEW dataset, get an idea of how different countries appreciate the United States. However, there are not a lot of countries and many data is missing. It is still an interesting thing to look at and we want to see if we can achieve a similar stidy using the sentiment of quotes about the US in the Quotebank dataset. If so, we would like to see how this comapres to the PEW analysis. 
+
+	- Pew heatmap
+
+## What is the sentiment of speakers in the  quotebank dataset ? 
+
+Looking at the raw sentiment analysis we can get an initial insight as to how the different countries feel about the United states
+
+	- First sentiment world map
+
+Albeit this is already an interesting result, it is still quite vague. Is this really truthul and without bias, and if so, it would be interesting to go deeper, and see what drives these feelings. 
+
+## Are the media bringing a bias in the feeling. 
+
+Most of the medias are USA based and nearly all are English speaking, so it is possible that some of them are more inclined to share positive or negative views on the USA. 
+
+	- Distribution of the top 30 most recurring medias (violin and boxplot) 
+	- P-values
+	
+Most seems to be similar so not that much bias, but some extreme values - look at how they are linked to the number of nationality speaker per media
+So seems like media does not induce massive bias - that is good, but it does not explain the reason behind the varying sentiments. 
+
+## Which subject brings out most positive quotes
+
+	- What subjects sparks the most emotions 
+
+By doing subject clustering on different subject, could be possible to get whether some subjects brings out more or less positivity. 
+
+## Do politicians and nonpoliticians say the same thing?
+
+That is good. One of the major subject when looking at international relation is politics, so would be nice to see how different it is in different countries between politicians and non-politicians
+
+	- Politician non politician study 
+  
+
+## Trump era versus Obama era, have the feelings changed
+
+Okay, the US politics has been marked by a sharp change recently from Obama to Trump. Could this be a strong driver of the sentiment of people towards the US. 
+
+
+## Conclusion : What drives US favorability and how does this compares to the PEW data
+
