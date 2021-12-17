@@ -1,4 +1,6 @@
-# US favorability
+# How favourable are countries to the USA ? 
+
+Data story : https://nicolaskirsch2000.github.io/young_boys_final_project/
 
 ## Abstract
 Nations around the world with different cultures and traditions have economic and political relationships with each 
@@ -17,35 +19,19 @@ the public. In other words, politicians' opinions are different from nonpolitici
 sentiment analysis on these two separate datasets. Then we study and compare the results to understand how politicians' 
 options differ from nonpoliticians.
 
-### B. Do the media reflect the nation?
-As a society, we employ many different media and spend considerable time with media. We rely on it as a news source and 
-entertainment, and we often assume that what we consume is pretty reliable. However, this assumption could not be 
-accurate, as the media might be biased and has the tendency to lean towards or against someone or something. In most 
-countries, media bias is thought to either lean to the left or right, favoring liberal or conservative politics. In some
-countries, media bias can ultimately reflect the ideals of the governing body; for example, in North Korea, the media 
-bias essentially becomes propaganda. Thus, we analyze the quotes given by cable news television channels or newspapers 
-such as CNN, Fox News, The New York Times, etc.
-
-### C. How does the world see the United States with a new president?
-Europeans' attitudes toward the United States have undergone a massive change during Donald Trump's presidency. They 
-thought that the United States' political was broken, furthermore European countries could not trust the United States 
-to defend them. They tend to invest in their own economy and defense and look to Germany rather than the United States. 
-They preferred to stay neutral in a conflict between the United States and China or Russia. Most Europeans rejoiced at 
-Joe Biden's victory in the November 2020 US presidential election. Many people may have hoped that his victory election 
-would have changed that dynamic. Still, the question is whether they believe that Biden can help the United States make 
-a comeback as the pre-eminent global leader and positively impact their countries. At first, we intended to study the 
-period before and after Joe Biden's presidency. However, the period right after an election might be pretty different 
+### B. How does the world see the United States with a new president?
+Europeans' attitudes toward the United States have undergone a massive change during Donald Trump's presidency. 
+At first, we intended to study the period before and after Joe Biden's presidency. However, the period right after an election might be pretty different 
 from the middle of a United States president's presidency because the discussion is more about hopes and fears 
 associated with the new president than about what the president has done politically. Thus, we consider the years of 
 2015-16 and 2019-20 where there is a transition from Barack Obama to Donald Trump to analyze the changes in people's 
-opinion towards the United States.
+opinion towards the United States. 
 
-### D. How does the United States see the rest of the world?
-According to Pew Research Center in 2013, Americans don't like Middle Eastern countries, and they don't like the United 
-States. But there was one notable difference. The British don't have nearly the same affection for the United States as 
-Americans have for Great Britain. In our proposed project, we will also compare the sentiments of countries about each 
-other, e.g., see whether country 'A' likes country 'B' more than country 'B' likes country 'A'. We evaluate how the 
-United States feels about the world and how the world thinks about the United States.
+This relative comparison of sentiment can also help us see how Quotebank data compares to PEW data, as raw sentiment scores cannot be compared directly between the two datasets. These relative values give insights on trends, which could be comparable instead.
+
+### C. What are the main positive and negative topics per countries ? 
+After gaining insights on the sentiments of the countries towards the USA, it is interesting to understand better what drives these feelings. There might be some common sources of positive or negative feelings, or maybe each country has their own reasons for feeling a specific way towards the USA. We therefore want to find what is the most common topic per country for the most positive and negative quotes, and see how this evolves throughout the years.
+
 
 ## Proposed additional datasets
 In this project, we employed two additional datasets named Pew Research Center and Wikidata. From Pew Research Center, 
@@ -68,6 +54,12 @@ You can find our preliminary results in the attachment.
 
 ![alt text](results_world_map.png)
 
+### Bias removal 
+During our research, we have seen that the Quotebank data seemed to be biased and thus did not provide accurate sentiment scores. To investigate this, we pursued several analysis. We wanted to see whether the medias could increase the bias, by selecting only positive or negative quotes. This was adressed by looking at the mean score and distribution per media. The medias with independent distribution and too extreme means were eliminated, as overall, the sentiment per should have a somewhat uniform distribution centered close to 0.
+Another possible bias source was the difference between politicians and non-politicians. This was adressed by comparing their relative scores to the PEW data, to see wether politicians shifted the sentiment scores compared to 'normal' citizens
+
+A final potential bias source is the importance each speaker has. If a person with extreme views speaks a lot about them, it will have a strong impact on the population sentiment score, while maybe not representing it. This possible bias was adressed by making a unique entry per speaker, with a weighted sentiment score
+
 ### Investigation in sentiment analysis algorithms
 We evaluated the accuracy of the sentiment analysis algorithm by conducting a user survey where fifty 
 quotes were selected randomly, and different Python libraries named NLTK, Flair, and TextBlob were applied. As we 
@@ -83,14 +75,18 @@ To make our results of sentiment analysis more attractive and trustworthy, we wi
 We extract all the American speakers using the "speaker_attributes.parquet" dataset, where we have the speaker and their 
 nationality. Then, we filter the quotes that contain American names from 2015 to 2020.
 
-### Estimate US favorability in unstudied countries using machine learning
+### Main topic extraction 
+To extract the main positive and negative topic per country, we will train an LDA model on the dataset, which will assign a topic to each quotes. After some tests, we have seen that creating 150 topics is what yields the most qualitative results. We will then divide the data on a sentiment thresholds (to get postive and negative). A group by by country and year finding the most common topics will be used. The topics will then be labeled manually to retrieve their actual meaning. 
+
 ## Organization within the team
-| Research Questions | November | December |||
+| Task | November | December |||
 | :------------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | | Week 4 | Week 1 | Week 2 | Week 3 |
-| A | Saleh | | | |
-| B | | Alireza | | |
-| C | | | Jonathan | |
-| D | | | | Nicolas  |
-| D | | | Nicolas | |
+| Keyword Enrichment | Saleh | | | |
+|Topic retrieval | | Alireza | | |
+| PEW comparative analysis | | Alireza and Saleh | | |
+| Politicians vs Non-Politicians | | | Jonathan | |
+| Speaker importance | | | Jonathan | |
+| Medias bias | | | Nicolas |   |
+| Interactive map | | |  | Nicolas |
 | Writing report | | | | All  |
