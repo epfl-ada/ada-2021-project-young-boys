@@ -14,27 +14,26 @@ United States.
 
 ## Research Questions
 
-### A. Can we extend the PEW results with the Quotebank data
-
-### A. Do politicians and nonpoliticians say the same thing?
-Politicians are biased in many issue areas, as interest groups or politicians themselves benefit from policies that harm
-the public. In other words, politicians' opinions are different from nonpoliticians' opinions. We will perform the 
-sentiment analysis on these two separate datasets. Then we study and compare the results to understand how politicians' 
-options differ from nonpoliticians.
-
-### B. How does the world see the United States with a new president?
-Europeans' attitudes toward the United States have undergone a massive change during Donald Trump's presidency. 
-At first, we intended to study the period before and after Joe Biden's presidency. However, the period right after an election might be pretty different 
-from the middle of a United States president's presidency because the discussion is more about hopes and fears 
-associated with the new president than about what the president has done politically. Thus, we consider the years of 
-2015-16 and 2019-20 where there is a transition from Barack Obama to Donald Trump to analyze the changes in people's 
-opinion towards the United States. 
+### A. Can we extend the PEW results with the Quotebank data and have a reasonable comparison
+Pew Research Center is an American center that conducts public opinion polling to analyze the issues, attitudes, and trends shaping the world. However, the number of studied countries is limited. We aim to use the Quotebank data to analyze the issues for the rest of the world in different years. We cannot compare the PEW and Quotebank data directly; thus, we provide a new study based on a time series event, particularly the US favorability changes before and after a special event such as presidency changes. Europeans' attitudes toward the United States have undergone a massive change during Donald Trump's presidency.
+At first, we intended to study the period before and after Joe Biden's presidency. However, the period right after an election might be pretty different
+from the middle of a United States president's presidency because the discussion is more about hopes and fears
+associated with the new president than about what the president has done politically. Thus, we consider the years of
+2015-16 and 2019-20 where there is a transition from Barack Obama to Donald Trump to analyze the changes in people's
+opinion towards the United States.
 
 This relative comparison of sentiment can also help us see how Quotebank data compares to PEW data, as raw sentiment scores cannot be compared directly between the two datasets. These relative values give insights on trends, which could be comparable instead.
 
-### C. What are the main positive and negative topics per countries ? 
-After gaining insights on the sentiments of the countries towards the USA, it is interesting to understand better what drives these feelings. There might be some common sources of positive or negative feelings, or maybe each country has their own reasons for feeling a specific way towards the USA. We therefore want to find what is the most common topic per country for the most positive and negative quotes, and see how this evolves throughout the years.
+### B. Can we improve the US favorability extraction from the quaotebank
+Several potential sources of bias and improvements are studied to assess whether taking them into account can improve the US favorability extraction from the quaotebank. For instance, improve the sentiment analysis tool by using different methods to perform sentiment analysis on the quotations. Keyword enrichment to make our sentiment analysis results more attractive and trustworthy. Reducing biases such as media, where they can lean towards or against someone or something.
 
+### C. How we can go beyond the PEW dataset for the US favorability.
+Analyzing politicians and nonpoliticians. Politicians are biased in many issue areas, as interest groups or politicians themselves benefit from policies that harm
+the public. In other words, politicians' opinions are different from nonpoliticians' opinions. We will perform the
+sentiment analysis on these two separate datasets. Then we study and compare the results to understand how politicians'
+options differ from nonpoliticians.
+
+Understand the main positive and negative topics per countries. After gaining insights on the sentiments of the countries towards the USA, it is interesting to understand better what drives these feelings. There might be some common sources of positive or negative feelings, or maybe each country has their own reasons for feeling a specific way towards the USA. We therefore want to find what is the most common topic per country for the most positive and negative quotes, and see how this evolves throughout the years.
 
 ## Proposed additional datasets
 In this project, we employed two additional datasets named Pew Research Center and Wikidata. From Pew Research Center, 
