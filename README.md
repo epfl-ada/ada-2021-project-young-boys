@@ -64,16 +64,6 @@ Another possible bias source was the difference between politicians and non-poli
 
 A final potential bias source is the importance each speaker has. If a person with extreme views speaks a lot about them, it will have a strong impact on the population sentiment score, while maybe not representing it. This possible bias was adressed by making a unique entry per speaker, with a weighted sentiment score
 
-### Investigation in sentiment analysis algorithms
-We evaluated the accuracy of the sentiment analysis algorithm by conducting a user survey where fifty 
-quotes were selected randomly, and different Python libraries named NLTK, Flair, and TextBlob were applied. As we 
-observe in the Table below, the Flair library results in better sentiment analysis accuracy.
-
-| | NLTK | TextBlob | Flair | 
-|-------|:-------:|-------|-------| 
-|Accuracy| 54 % | 42 % | 56 % | 
-|Time | 0.135[s] | 0.021[s] | 0.307[s] (without initialization)| 
-
 ### Keyword enrichment
 To make our results of sentiment analysis more attractive and trustworthy, we will enrich the keywords. In our project, 
 We extract all the American speakers using the "speaker_attributes.parquet" dataset, where we have the speaker and their 
