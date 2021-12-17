@@ -52,7 +52,7 @@ within the text. Finally, we study the positiveness or negativeness of the quote
 States. 
 You can find our preliminary results in the attachment.
 
-![alt text](results_world_map.png)
+![alt text](data/results_world_map.png)
 
 ### Bias removal 
 During our research, we have seen that the Quotebank data seemed to be biased and thus did not provide accurate sentiment scores. To investigate this, we pursued several analysis. We wanted to see whether the medias could increase the bias, by selecting only positive or negative quotes. This was adressed by looking at the mean score and distribution per media. The medias with independent distribution and too extreme means were eliminated, as overall, the sentiment per should have a somewhat uniform distribution centered close to 0.
@@ -67,8 +67,8 @@ observe in the Table below, the Flair library results in better sentiment analys
 
 | | NLTK | TextBlob | Flair | 
 |-------|:-------:|-------|-------| 
-|Accuracy| 54 % | 42 % | 66 % | 
-|Time | 0.135[s] | 0.021[s] | 4.064[s] (without initialization)| 
+|Accuracy| 54 % | 42 % | 56 % | 
+|Time | 0.135[s] | 0.021[s] | 0.307[s] (without initialization)| 
 
 ### Keyword enrichment
 To make our results of sentiment analysis more attractive and trustworthy, we will enrich the keywords. In our project, 
