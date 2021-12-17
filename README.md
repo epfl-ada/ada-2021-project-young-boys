@@ -2,6 +2,8 @@
 
 Data story : https://nicolaskirsch2000.github.io/young_boys_final_project/
 
+The different notebooks used are available in the SRC folder, divided into process and analysis notebooks. ReadMEs are available there to explain the content of each notebooks
+
 ## Abstract
 Nations around the world with different cultures and traditions have economic and political relationships with each 
 other. Pew Research Center, a nonpartisan American fact tank that does not take policy positions, provides information 
