@@ -13,6 +13,9 @@ for those thirty-seven countries. Consequently, we will estimate the favorabilit
 United States.
 
 ## Research Questions
+
+### A. Can we extend the PEW results with the Quotebank data
+
 ### A. Do politicians and nonpoliticians say the same thing?
 Politicians are biased in many issue areas, as interest groups or politicians themselves benefit from policies that harm
 the public. In other words, politicians' opinions are different from nonpoliticians' opinions. We will perform the 
