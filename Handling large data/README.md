@@ -1,6 +1,3 @@
-The handling process was done using google collab. Below are credential of an account having access to the google collab and the output files.
+The handling process was done using google collab.
 
-
-Email : adayoungboys@gmail.com
-
-Password : Adayoungboys2021
+The Jupyter notebook here is designed to work in google collab, with the quotebank data mounted at the following location : /content/drive/MyDrive/us_data/Quotebank
