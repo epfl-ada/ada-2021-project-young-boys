@@ -24,7 +24,7 @@ opinion towards the United States.
 
 This relative comparison of sentiment can also help us see how Quotebank data compares to PEW data, as raw sentiment scores cannot be compared directly between the two datasets. These relative values give insights on trends, which could be comparable instead.
 
-### B. Can we improve the US favorability extraction from the quaotebank
+### B. Can we improve the US favorability extraction from the quotebank
 Several potential sources of bias and improvements are studied to assess whether taking them into account can improve the US favorability extraction from the quaotebank. For instance, improve the sentiment analysis tool by using different methods to perform sentiment analysis on the quotations. Keyword enrichment to make our sentiment analysis results more attractive and trustworthy. Reducing biases such as media, where they can lean towards or against someone or something.
 
 ### C. How we can go beyond the PEW dataset for the US favorability.
@@ -37,7 +37,7 @@ Understand the main positive and negative topics per countries. After gaining in
 
 ## Proposed additional datasets
 In this project, we employed two additional datasets named Pew Research Center and Wikidata. From Pew Research Center, 
-we used the dataset of 2016-2020, which conducts public opinion polling over the phone to evaluate public attitudes 
+we used the dataset of 2015-2020, which conducts public opinion polling over the phone to evaluate public attitudes 
 toward the United States. However, their analysis does not include the vast majority of the countries.
 
 We also considered Wikidata, which is a free database to provide support for Wikipedia. Wikidata enables us to access 
